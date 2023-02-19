@@ -1,4 +1,4 @@
-# AWS-and-Terraform-VPC
+# Terraform-AWS-VPC
 vpc module for Terraform
 
 vpc module to create resources in a custom vpc
