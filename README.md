@@ -3,11 +3,11 @@ vpc module for Terraform
 
 vpc module to create resources in a custom vpc
 
-# Inputs:
+## Inputs:
 
 none
 
-# Outputs :
+## Outputs :
 
 - vpc_id - id of vpc created (string)
 - public_subnets - ids of public subnets created (list of strings)
@@ -15,7 +15,7 @@ none
 - private_subnet_count - number of private sunbents created (number)
 - my_nat_gw - nat gateway resource to be consumed (resource)
 
-# Variables:
+## Variables:
 
 - public_cidrs - public subnets cidr blocks (list of strings)
 - private_cidrs - private subnet cidr blocks (list of strings)
